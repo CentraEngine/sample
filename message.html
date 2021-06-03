@@ -1,0 +1,24 @@
+
+<script type='text/javascript'>
+
+console.log("window.location.search.substring(1)",window)
+console.log("window.location.search.substring(1)",window.parent)
+
+//console_origin = window.console.log;
+/*window.console = {
+    log: function(str){
+        //REM: Forward the string to the top window.
+        //REM: https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage
+        window.parent.postMessage(str, 'http://localhost:8888');
+        console_origin(str);
+    }
+};*/
+
+
+//function changeIframeSize(val){
+//	window.parent.postMessage(val, '*');
+//}
+console.log('child_messageaaaaaaaaaaa!')
+</script>
+
+<input type='button' value='iframe more big' value='+' onclick='changeIframeSize("+")'>
