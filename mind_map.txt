@@ -7,36 +7,5 @@ cognitive_load --> cognitiveload_theory
 click cognitiveload_theory "http://files.realspellers.org/PetesFolder/Cognitive%20Load%20Stuff%20for%20Matt/Shnotz%20&%20K%20Cognitive%20Load%202007.pdf"
 style cognitiveload_theory fill:aqua
 
-jupyternode --> notebook
-notebook --> example
-example --> 000005_d3
-example --> 000010_mermaid
-example --> 000015_dagre
-example --> 000100_react
-example --> 000105_react_typescript
-
-
-000010_mermaid --> mermaid.js
-
-mermaid.js --> 01_window.addEventListener_load
-mermaid.js --> 02_contentLoaded
-02_contentLoaded --> 01_mermaidAPI.getConfig
-02_contentLoaded --> 02_mermaid.init
-
-
-02_mermaid.init --> 01_mermaidAPI.getConfig_
-02_mermaid.init --> 05_document.querySelectorAll_.mermaid
-
-02_mermaid.init --> 10_mermaidAPI.updateSiteConfig
-02_mermaid.init --> 15_utils.initIdGeneratior
-02_mermaid.init --> 20_element.innerHTML
-02_mermaid.init --> 25_utils.detectInit
-02_mermaid.init --> 30_mermaidAPI.render
-
-
-click 000005_d3 "https://galle.world/knowledge/notebook/example/00005_d3"
-style 000005_d3 fill:aqua
-
-
 
 
