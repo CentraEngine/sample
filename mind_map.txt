@@ -2,7 +2,3 @@ graph LR
 knowledge-->cognitive_load
 cognitive_load --> what_is_cognitiveload
 cognitive_load --> cognitiveload_theory
-
-
-
-
