@@ -1,2 +1,4 @@
 graph LR
-knowledge-->cognitive_load
+a-->b
+b-->c
+c-->d
