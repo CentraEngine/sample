@@ -1,4 +1,4 @@
-graph TD
-example --> 000005_d3
-example --> 000010_mermaid
-example --> 000015_dagre
+graph LR
+knowledge-->cognitive_load
+cognitive_load --> what_is_cognitiveload
+cognitive_load --> cognitiveload_theory
